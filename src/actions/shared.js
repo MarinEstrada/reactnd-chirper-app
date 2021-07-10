@@ -6,7 +6,7 @@ import { setAuthedUser } from './authedUser'
 //user currently 'logged in'
 const AUTHED_ID = 'tylermcginnis'
 
-export function handleInitalData() {
+export function handleInitialData() {
     //using redux thunk pattern
     return (dispatch) => {
         return getInitialData()

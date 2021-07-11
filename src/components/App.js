@@ -26,4 +26,5 @@ function mapStateToProps({ authedUser }) {
 
 //We don't need anything from state, so leave
 //first invocation blank
+//second invocation is where we will render (eg, App)
 export default connect(mapStateToProps)(App)
